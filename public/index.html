@@ -6,7 +6,7 @@
 <title>Sava Labs Ltd</title>
 <meta name="description" content="Sava Labs Ltd is a UK software company building consumer web and mobile products for learning and exam preparation.">
 <link rel="canonical" href="https://savalabs.io/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316191d'/%3E%3Ctext x='16' y='22.5' font-family='Georgia,serif' font-size='18' fill='%23f5f3ed' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%2316191d'/%3E%3Cpath d='M8 70 L38 30 L52 48 L62 40 L88 70' fill='none' stroke='%23f5f3ed' stroke-width='7'/%3E%3Cpath d='M66 12 L68.2 17.8 L74 20 L68.2 22.2 L66 28 L63.8 22.2 L58 20 L63.8 17.8 Z' fill='%23c2a369'/%3E%3C/svg%3E">
 <style>
   :root {
     --paper: #f5f3ed;
@@ -45,14 +45,10 @@
     padding: clamp(4rem, 16vh, 9rem) 0 4rem;
   }
   .mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    border: 1px solid var(--ink);
-    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-    font-size: 1.5rem;
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: var(--ink);
     margin-bottom: 2.25rem;
   }
   h1 {
@@ -110,7 +106,11 @@
 </head>
 <body>
 <main>
-  <div class="mark" aria-hidden="true">S</div>
+  <svg class="mark" viewBox="0 0 96 96" aria-hidden="true">
+    <circle cx="48" cy="48" r="44" fill="none" stroke="currentColor" stroke-width="3"/>
+    <path d="M8 66 L38 26 L52 44 L62 36 L88 66" fill="none" stroke="currentColor" stroke-width="3"/>
+    <path d="M63 11 L64.7 15.3 L69 17 L64.7 18.7 L63 23 L61.3 18.7 L57 17 L61.3 15.3 Z" fill="var(--brass)"/>
+  </svg>
   <h1>Sava Labs</h1>
   <p class="lede"><b>Sava Labs Ltd</b> is a UK software company. We build and operate consumer
   web and mobile products for learning and exam preparation, serving users across Europe.</p>
