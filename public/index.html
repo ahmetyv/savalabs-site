@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sava Labs Ltd</title>
+<meta name="description" content="Sava Labs Ltd is a UK software company building consumer web and mobile products for learning and exam preparation.">
+<link rel="canonical" href="https://savalabs.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316191d'/%3E%3Ctext x='16' y='22.5' font-family='Georgia,serif' font-size='18' fill='%23f5f3ed' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --paper: #f5f3ed;
+    --ink: #16191d;
+    --muted: #6e7268;
+    --rule: #dcd8cc;
+    --pine: #24422f;
+    --brass: #a5814b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0e1112;
+      --ink: #ece9e1;
+      --muted: #9ba096;
+      --rule: #262b2c;
+      --pine: #7fa98f;
+      --brass: #c2a369;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  ::selection { background: var(--pine); color: var(--paper); }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+  .serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  main {
+    flex: 1;
+    width: min(42rem, 100% - 3rem);
+    margin: 0 auto;
+    padding: clamp(4rem, 16vh, 9rem) 0 4rem;
+  }
+  .mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 1.5rem;
+    margin-bottom: 2.25rem;
+  }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(2.1rem, 5vw, 2.75rem);
+    letter-spacing: 0.01em;
+    margin-bottom: 1.1rem;
+  }
+  .lede { color: var(--muted); max-width: 36rem; font-size: 1.02rem; }
+  .lede b { color: var(--ink); font-weight: 600; }
+  .rule {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 3.25rem 0;
+    position: relative;
+  }
+  .rule::after {
+    content: "";
+    position: absolute;
+    top: -1px; left: 0;
+    width: 2.5rem;
+    border-top: 1px solid var(--brass);
+  }
+  h2 {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    margin-bottom: 1.1rem;
+  }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 2rem; font-size: 0.95rem; }
+  dt { color: var(--muted); white-space: nowrap; }
+  dd { min-width: 0; }
+  a { color: var(--pine); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  a:hover { border-bottom-color: var(--pine); }
+  footer {
+    width: min(42rem, 100% - 3rem);
+    margin: 0 auto;
+    padding: 1.5rem 0 2.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 30rem) {
+    dl { grid-template-columns: 1fr; gap: 0; }
+    dt { margin-top: 0.7rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true">S</div>
+  <h1>Sava Labs</h1>
+  <p class="lede"><b>Sava Labs Ltd</b> is a UK software company. We build and operate consumer
+  web and mobile products for learning and exam preparation, serving users across Europe.</p>
+
+  <hr class="rule">
+
+  <h2>Company details</h2>
+  <dl>
+    <dt>Legal name</dt><dd>Sava Labs Ltd</dd>
+    <dt>Registration</dt><dd>Private limited company, registered in England and Wales</dd>
+    <dt>Company number</dt><dd>16124943</dd>
+    <dt>Registered office</dt><dd>Unit 13 Freeland Park, Wareham Road, Lytchett Matravers, Poole, England, BH16 6FA, United Kingdom</dd>
+    <dt>Contact</dt><dd><a href="mailto:contact@savalabs.io">contact@savalabs.io</a></dd>
+  </dl>
+</main>
+<footer>
+  <span>&copy; 2026 Sava Labs Ltd. All rights reserved.</span>
+  <a href="/press/">Press kit</a>
+</footer>
+</body>
+</html>
